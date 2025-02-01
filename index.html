@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TURK BANK</title>
+
+    <!--Css File Link-->
+    <link rel="stylesheet" href="index.css" />
+
+    <!--Google Font EB Garamond and Lato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&family=Lato:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontawesome CDN Link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo-container">
+        <img
+          src="icons/AKSOY-removebg-preview.png"
+          alt="Aksoy Bank Logo"
+          class="logo-image"
+        />
+        <div class="brand">
+          <h1>TURK BANK</h1>
+          <p>Your Reliable Investment Partner</p>
+        </div>
+      </div>
+      <button class="log-out-button">Log out</button>
+    </header>
+
+    <!-- Main Layout -->
+    <div class="flex-container">
+      <!-- Left Sidebar: Currency Rates -->
+      <aside class="left-sidebar">
+        <h2>Exchange Rates</h2>
+        <div class="currency-card">
+          <div class="currency-info">
+            <img
+              src="icons/dollar-sign-solid.svg"
+              alt="Dollar Currency Icon"
+            />
+            <span class="currency-code">USD</span>
+          </div>
+          <div class="rates">
+            <p>Buy: 33.3783</p>
+            <p>Sell: 35.2687</p>
+          </div>
+          <span class="rate-change"><i class="fas fa-arrow-up"></i></span>
+        </div>
+        <div class="currency-card">
+          <div class="currency-info">
+            <img src="icons/euro-sign-solid.svg" alt="Euro Currency Icon" />
+            <span class="currency-code">EUR</span>
+          </div>
+          <div class="rates">
+            <p>Buy: 36.3256</p>
+            <p>Sell: 38.39</p>
+          </div>
+          <span class="rate-change"><i class="fas fa-arrow-up"></i></span>
+        </div>
+        <div class="currency-card">
+          <div class="currency-info">
+            <img src="icons/sterling-sign-solid.svg" alt="Currency Icon" />
+            <span class="currency-code">GBP</span>
+          </div>
+          <div class="rates">
+            <p>Buy: 36.3256</p>
+            <p>Sell: 38.39</p>
+          </div>
+          <span class="rate-change"><i class="fas fa-arrow-up"></i></span>
+        </div>
+
+        <div class="currency-card">
+          <div class="currency-info">
+            <img src="icons/yen-sign-solid.svg" alt="Currency Icon" />
+            <span class="currency-code">JPY</span>
+          </div>
+          <div class="rates">
+            <p>Buy: 36.3256</p>
+            <p>Sell: 38.39</p>
+          </div>
+          <span class="rate-change"><i class="fas fa-arrow-up"></i></span>
+        </div>
+       
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+          <button class="btn convert">Convert Currency</button>
+          <button class="btn buy-sell">Buy / Sell</button>
+          <button class="btn view-all">View All Rates</button>
+        </div>
+      </aside>
+
+      <!-- Main Content Area -->
+      <main class="middle-part">
+        <!-- Welcome Banner -->
+        <section class="welcome-banner">
+          <h2>Welcome to Your Bank, Selahattin</h2>
+          <p>Your Trusted Financial Partner</p>
+        </section>
+        <!-- About Bank -->
+        <section class="about-bank">
+          <h3>About Our Bank</h3>
+          <p>Since our founding, we have dedicated ourselves to supporting our customers’ financial well-being. Our mission is to provide innovative and secure banking solutions for everyone.</p>
+        </section>
+        <!--Popular Services -->
+        <section class="our-services-items">
+          <h3>Explore Our Services</h3>
+          <p>Find what you need quickly and easily from our range of services.</p>
+          <div class="icons-grid">
+            <div class="icon-item">
+              <img src="icons/bank.svg" alt="Bank Icon">
+              <p>Open Banking</p>
+            </div>
+   
+            <div class="icon-item">
+              <img src="icons/deposit.svg" alt="Percentage Icon">
+              <p>Deposits</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/wallet.svg" alt="Wallet Icon">
+              <p>Personal Loan</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/truck.svg" alt="Vehicle Icon">
+              <p>Vehicle Loan</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/home.svg" alt="Home Icon">
+              <p>Home Loan</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/credit-card.svg" alt=" Credit Card">
+              <p>Credit Card</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/heart.svg" alt="Heart Icon">
+              <p>Life with us</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/calculator.svg" alt=" Calculator Icon">
+              <p> Calculations</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/notification.svg" alt="Notification Icon">
+              <p>Campaigns</p>
+            </div>
+            <div class="icon-item">
+              <img src="icons/increase.svg" alt="Increse Icon">
+              <p>Investment Funds</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Our Core Values -->
+        <section class="bank-core-values">
+          <h3>Extraordinary Customer Experience</h3>
+          <p>Our values guide our approach to banking and define how we support our customers and communities:</p>
+          <div class="values-grid">
+            <div class="value-item">
+              <img src="icons/Circles.svg" alt="Integrity Icon">
+              <h4>Integrity</h4>
+              <p>Displaying the highest level of integrity in the way we conduct our business.</p>
+            </div>
+            <div class="value-item">
+              <img src="icons/diversity.svg" alt="Diversity Icon">
+              <h4>Diversity</h4>
+              <p>Promoting Diversity in the work place and community</p>
+            </div>
+            <div class="value-item">
+              <img src="icons/Rocket.svg" alt="RocketIcon">
+              <h4>Technology</h4>
+              <p>Harnessing the power of Technology to deliver better customer experience</p>
+            </div>
+            <div class="value-item">
+              <img src="icons/Cube.svg" alt="Cube Icon">
+              <h4>Digital</h4>
+              <p>Setting the standard for the best Corporate Citizenship in the communities we work</p>
+            </div>
+          </section>
+        <!-- Financial Services Section -->
+        <section class="financial-services">
+          <h3>Our Financial Services</h3>
+          <p>Explore the range of financial services we offer to support your financial goals. From personal loans to investment plans, we provide solutions to help you manage and grow your wealth effectively.</p>
+          <div class="services-grid">
+            <div class="service-item">
+              <img src="icons/personal.png" alt="Loan Icon">
+              <h4>Personal Loans</h4>
+              <p>Flexible loan options to meet your financial needs.</p>
+              <ul>
+                <li>Competitive interest rates</li>
+                <li>Flexible repayment terms</li>
+                <li>Quick approval process</li>
+              </ul>
+            </div>
+            <div class="service-item">
+              <img src="icons/investment.png" alt="Investment Icon">
+              <h4>Investment Planning</h4>
+              <p>Our team of experts will help you make informed investment decisions.</p>
+              <ul>
+                <li>Personalized investment strategies</li>
+                <li>Risk assessment and management</li>
+                <li>Regular portfolio updates</li>
+              </ul>
+            </div>
+            <div class="service-item">
+              <img src="icons/money.png" alt="Money Icon">
+              <h4>Savings Accounts</h4>
+              <p>Secure savings options for your financial future.</p>
+              <ul>
+                <li>High-interest savings accounts</li>
+                <li>Flexible deposit and withdrawal options</li>
+                <li>Online account management</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Credit Card Options -->
+        <section class="credit-cards">
+          <h3>Our Card Options</h3>
+          <p>Choose from our range of credit cards designed to suit your needs.</p>
+          <div class="cards-container">
+            <div class="card-box">
+              <img src="icons/Card-3.png" alt="Credit Card 1">
+            </div>
+            <div class="card-box">
+              <img src="icons/Card-4.png" alt="Credit Card 1">
+            </div>
+            <div class="card-box">
+              <img src="icons/Card-1.png" alt="Credit Card 1">
+            </div>
+          </div>
+        </section>
+       
+        <!-- Customer Service Promise Section -->
+        <section class="customer-service">
+          <h3>Our Customer Service Promise</h3>
+          <p>Your satisfaction is our priority. At Aksoy Bank, we are committed to providing exceptional service through:</p>
+          <ul>
+            <li>24/7 support for all your banking needs</li>
+            <li>Dedicated account managers for personalized service</li>
+            <li>Quick resolution of issues with a customer-first approach</li>
+            <li>Transparent communication and no hidden fees</li>
+          </ul>
+        </section>
+      </main>
+
+      <!-- Right Sidebar-->
+      <aside class="right-sidebar">
+        <!-- User Profile Section -->
+        <div class="profile">
+          <img src="icons/account.png" alt="Profile-image" />
+          <p class="user-name">Selahattin Aksoy</p>
+          <p class="user-id">Account #123456</p>
+          <button class="button-settings">Account Settings</button>
+        </div>
+        <!-- Account Balance Section-->
+        <div class="account-balance">
+          <h3>Current Balance</h3>
+          <div class="balance-info">
+            <img src="icons/wallet.png" alt="Wallet Icon" />
+            <p class="balance-amount">75.000 TL</p>
+          </div>
+        </div>
+        <!--Recent Transaction Section-->
+        <div class="recent-transactions">
+            <div class="recent-transactions-title">
+                <img src="icons/wall-clock.png" alt="Clock Icon">
+                <h3>Recent Transactions</h3>
+            </div>
+            <ul>
+              <li>
+                <div class="transaction-icon">
+                  <img src="icons/shopping-cart.svg" alt="Market Icon">
+                </div>
+                <div class="transaction-details">
+                  <p class="transaction-category">Market</p>
+                  <p class="transaction-subdetails">November 4</p>
+                </div>
+                <div class="transaction-amount">-500.92 TL</div>
+              </li>
+              <li>
+                <div class="transaction-icon">
+                  <img src="icons/cake.svg" alt="Restaurant Icon">
+                </div>
+                <div class="transaction-details">
+                  <p class="transaction-category">Restaurant & Cafe</p>
+                  <p class="transaction-subdetails">November 3</p>
+                </div>
+                <div class="transaction-amount">-340.00 TL</div>
+              </li>
+              <li>
+                <div class="transaction-icon">
+                  <img src="icons/ticket.svg" alt="Books & Music Icon">
+                </div>
+                <div class="transaction-details">
+                  <p class="transaction-category">Concert, Cinema</p>
+                  <p class="transaction-subdetails">IZBBT</p>
+                </div>
+                <div class="transaction-amount">-213.00 TL</div>
+              </li>
+                
+              </ul>
+              
+            </div>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <!-- Contact Form in Footer -->
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <form action="#" method="post">
+            <label for="footer-message">Message:</label>
+            <textarea id="footer-message" name="message" rows="2" placeholder="Your message..." required></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <!-- Products & Services -->
+        <div class="footer-services">
+          <h4>Products & Services</h4>
+          <ul>
+            <li><a href="#savings">Savings Accounts</a></li>
+            <li><a href="#loans">Loans</a></li>
+            <li><a href="#credit-cards">Credit Cards</a></li>
+            <li><a href="#investments">Investment Accounts</a></li>
+          </ul>
+        </div>
+        
+        <!-- Legal & Security -->
+        <div class="footer-security">
+          <h4>Legal & Security</h4>
+          <ul>
+            <li><a href="#privacy-policy">Privacy Policy</a></li>
+            <li><a href="#terms">Terms of Service</a></li>
+            <li><a href="#security">Security Center</a></li>
+            <li><a href="#fraud-protection">Fraud Protection</a></li>
+          </ul>
+        </div>
+    
+        <!-- Social Media Links -->
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Copyright Information -->
+      <div class="footer-bottom">
+        <p>&copy; 2024 TURK BANK. All Rights Reserved.</p>
+      </div>
+    </footer>
+    
+    
+  </body>
+</html>
